@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mike Hyler</title>
+
+    <link rel="shortcut icon" href="./img/favicon-48x48.png">
+
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+        rel="stylesheet">
+
+    <!-- <link rel="stylesheet" type="text/css" href="css/styles.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/style.production.css">
+
+</head>
+
+<script src="js/tota11y.min.js"> </script>
+
+<body>
+
+    <header class="page-header">
+
+        <img src="img/mike-hyler-logo.svg" alt="Personal logo of Mike Hyler, stylized text displaying his name."
+            class="page-header_item logo-img">
+
+
+        <nav class="main-navigation page-header_item">
+            <ul role="menubar" class="navigation-list">
+
+                <li role="presentation">
+                    <a href="#about-me" role="menuitem"
+                        class="navigation-list__item navigation-list__item--active">About Me</a>
+                    <!--tota11y suggested About lacked context, changed to About Me-->
+                </li>
+
+                <li role="presentation">
+                    <a href="#skills" role="menuitem"
+                        class="navigation-list__item navigation-list__item--active">Skills</a>
+                </li>
+
+                <li role="presentation">
+                    <a href="#work" role="menuitem"
+                        class="navigation-list__item navigation-list__item--active">Projects</a>
+                </li>
+
+                <li role="presentation">
+                    <a href="#contact" role="menuitem"
+                        class="navigation-list__item navigation-list__item--active">Contact</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <section class="profile">
+        <img src="./img/profile-pic.jpg" class="profile_portrait" alt="Profile photograph of Mike Hyler">
+        <h1>Hey<br>You've made it!</h1>
+        <p class="profile_paragraph">
+            Now that you’re here, kick your feet up and make yourself at home.
+            If we haven’t met yet, I’m Mike a web dev in Brooklyn, NY.
+            Take a look at some of my projects and let me know what you think.
+            I can take it.</p>
+        <a class="profile-a" href="https://github.com/BKMick77" target="_blank"> Check out some of my code!</a>
+    </section>
+
+    <section class="about-me" id="about-me">
+
+        <h2 class="about-me_item">
+            About Me
+        </h2>
+
+
+        <p class="about-me_item">
+            I’m a Full-Stack Web Development student at CareerFoundry with a background in
+            sales and management. After years in my previous field, I decided to dive into tech. I’m
+            currently developing my skills in both front-end and back-end technologies and excited
+            to start creating real projects. Looking forward to growing as a developer and seeing
+            where this journey can take me!
+        </p>
+        <p>
+            Want to follow along?
+        </p>
+
+        <a href="https://github.com/BKMick77" target="_blank" class="button">Check Out My GitHub</a>
+
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <h3>Checking 'em off one at a time</h3>
+        <div class="skills__grid">
+            <div class="skills__item--achieved">HTML</div>
+            <div class="skills__item--achieved">CSS</div>
+            <div class="skills__item">JavaScript</div>
+            <div class="skills__item">Node</div>
+            <div class="skills__item">React</div>
+            <div class="skills__item">MongoDB</div>
+            <div class="skills__item">Angular</div>
+            <div class="skills__item">SQL</div>
+            <div class="skills__item">Python</div>
+        </div>
+
+    </section>
+
+    <section class="work" id="work">
+
+        <h2 class="work-h1">Projects</h2>
+
+        <div class="project-list">
+
+            <div class="project-list_item">
+                <div class="project-list_content"> <!--Project 1 img -->
+                    <img src="https://placehold.co/450x300" alt="Placeholder image">
+                </div>
+            </div>
+
+            <div class="project-list_item"> <!--Project 1 text -->
+                <div class="project-list_content">
+                    <h3>Placeholder Project 1</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua.
+                    </p>
+                    <div>
+                        <a class="project-a" href="#work">Live Page</a>
+                    </div>
+                    <div>
+                        <a class="project-a" href="https://github.com/BKMick77" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-list_item"> <!--Project 2 img -->
+                <div class="project-list_content">
+                    <img src="https://placehold.co/450x300" alt="Placeholder image">
+                </div>
+            </div>
+
+            <div class="project-list_item"> <!--Project 2 text -->
+                <div class="project-list_content">
+                    <h3>Placeholder Project 2</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua.
+                    </p>
+                    <div>
+                        <a class="project-a" href="#work">Live Page</a>
+                    </div>
+                    <div>
+                        <a class="project-a" href="https://github.com/BKMick77" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-list_item"> <!--Project 3 img -->
+                <div class="project-list_content">
+                    <img src="https://placehold.co/450x300" alt="Placeholder image">
+                </div>
+            </div>
+
+            <div class="project-list_item"> <!--Project 3 text -->
+                <div class="project-list_content">
+                    <h3>Placeholder Project 3</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua.
+                    </p>
+                    <div>
+                        <a class="project-a" href="#work">Live Page</a>
+                    </div>
+                    <div>
+                        <a class="project-a" href="https://github.com/BKMick77" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Let's Talk</h2>
+
+        <p>Ask me about my projects, tell me about yours. Let’s network. Let’s collaborate. Let’s get to know each
+            other. </p>
+
+        <div class="form">
+
+            <form action="" method="post" id="contact-form">
+                <label class="standard-label form_item" for="contact-email"> E-Mail </label>
+                <!--Added for attribute for accessibility-->
+                <input type="email" id="contact-email" required> <!--Added id attribute for accessibility-->
+
+                <label class="standard-label form_item" for="contact-tel">Telephone</label>
+                <!--Added for attribute for accessibility-->
+                <input type="tel" id="contact-tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+                <!--Added id attribute for accessibility-->
+
+                <label class="standard-label form_item" for="message">Message</label>
+                <textarea id="message" maxlength="240" required></textarea>
+
+                <input class="submit" value="Send">
+            </form>
+        </div>
+
+        <p class="psst">psst, if forms aren't your thing (it's okay nobody likes them) click <a class="e-mail"
+                href="mailto: mhyler@zoho.com">here</a> for an e-mail. </p>
+    </section>
+    
+    <!-- Only for mobile devices under 768px -->
+    <footer class="mobile-footer"> 
+        <div class="mobile-up-arrow-icon">
+            <a href="#"> <img src="img/up-arrow-icon.svg" alt="top of the page"> </a>
+        </div>
+        <p class="footer-p">Find me on</p>
+
+        <div>
+            <a class="social-media_item" href="https://github.com" target="_blank"> <img src="img/github_icon.svg"
+                    alt="GitHub"> </a>
+            <a class="social-media_item" href="https://linkedin.com" target="_blank"> <img src="img/linkedin_icon.svg"
+                    alt="LinkedIn"> </a>
+        </div>
+        <p>© 2025 Michael Hyler</p>
+    </footer>
+
+
+    <footer class="page_footer">
+        © 2025 Michael Hyler
+    </footer>
+
+    <div class="social-media">
+
+        <a class="social-media_item" href="https://github.com/BKMick77" target="_blank"> <img src="img/github_icon.svg"
+                alt="GitHub"> </a>
+        <a class="social-media_item" href="https://www.linkedin.com/in/mike-hyler-48a7a335b/" target="_blank"> <img
+                src="img/linkedin_icon.svg" alt="LinkedIn"> </a>
+    </div>
+
+    <div class="up-arrow-icon">
+        <a href="#"> <img src="img/up-arrow-icon.svg" alt="top of the page"> </a>
+    </div>
+
+
+
+</body>
+
+</html>
