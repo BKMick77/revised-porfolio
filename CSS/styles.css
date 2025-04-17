@@ -117,7 +117,6 @@ ul {
     text-decoration: none;
     margin-top: 350px;
     font-size: 18px;
-
 }
 
 .mobile-footer {
@@ -128,7 +127,6 @@ ul {
     text-decoration: none;
     margin-top: 250px;
     font-size: 18px;
-
 }
 
 .profile {
@@ -216,7 +214,6 @@ ul {
     text-align: start;
 }
 
-
 .navigation-list {
     list-style-type: none;
 }
@@ -289,7 +286,6 @@ ul {
 }
 
 @media screen and (max-width: 700px) {
-
     .navigation-list__item,
     .project-a,
     .profile-a {
@@ -341,7 +337,6 @@ ul {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 40px;
-
     }
 
     .skills__item {
@@ -372,7 +367,6 @@ ul {
         margin-top: 50px;
         box-shadow: 0 4px 8px rgba(0, 200, 255, 0.2);
         transition: transform 0.3s;
-
     }
 
     .skills__item--achieved:hover {
@@ -545,16 +539,13 @@ ul {
             font-size: 22px;
         }
     }
-
 }
 
 @media all and (max-width: 768px) {
-
     .social-media,
     .up-arrow-icon,
     .page_footer {
         display: none;
-
     }
 }
 
