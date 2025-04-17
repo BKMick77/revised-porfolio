@@ -209,6 +209,7 @@ ul {
 }
 
 .page-header {
+    position: sticky;
     display: flex;
     width: 100%;
     padding: 20px;
