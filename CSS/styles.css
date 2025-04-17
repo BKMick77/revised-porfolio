@@ -80,6 +80,7 @@ button:focus,
 .button:hover,
 .button:focus {
     cursor: pointer;
+    opacity: 0.9;
     background-color: var(--secondary-color);
 }
 
