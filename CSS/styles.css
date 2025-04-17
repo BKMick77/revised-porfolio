@@ -45,7 +45,6 @@ a {
 }
 
 a:visited {
-    color: var(--secondary-color);
 }
 
 a:hover,
