@@ -99,28 +99,6 @@ ul {
     margin: 0;
 }
 
-    border: none;
-    font-family: inherit;
-    background-color: var(--primary-color);
-    color: aliceblue;
-    text-decoration: none;
-    text-align: center;
-    padding: 4px;
-    max-width: 200px;
-    border-radius: 3px;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
-}
-
-.submit:active {
-    background-color: var(--secondary-color);
-}
-
-.submit:hover,
-.submit:focus {
-    cursor: pointer;
-    opacity: 0.9;
-}
-
 .profile_portrait {
     float: left;
     width: 250px;
