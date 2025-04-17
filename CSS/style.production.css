@@ -9,6 +9,11 @@ html {
     scroll-behavior: smooth;
 }
 
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 body {
     background-color: #020323;
     color: #f0f8ff;
@@ -41,7 +46,7 @@ a {
 }
 
 a:visited {
-    color: #6e050c;
+    color: #245f56;
 }
 
 a:hover,
@@ -61,11 +66,11 @@ button {
     color: #f0f8ff;
     text-decoration: none;
     padding: 10px;
-    border-radius: 3px;
+    border-radius: 9999px;
     border-bottom: 2px solid rgba(0, 0, 0, 0.3);
-    /* transition: opacity 0.2s; */
+    -webkit-transition: opacity 0.2s;
+    transition: opacity 0.2s;
     -webkit-transition: background-color 0.4s;
-    -o-transition: background-color 0.4s;
     transition: background-color 0.4s;
 }
 

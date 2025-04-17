@@ -19,7 +19,9 @@ module.exports = {
     "no-empty-source": true,
     "no-extra-semicolons": true,
     "no-invalid-double-slash-comments": true,
-    "property-no-unknown": true,
+    "property-no-unknown": [true, {
+      "ignoreProperties": ["gap", "scroll-margin-top"]
+    }],
     "selector-pseudo-class-no-unknown": true,
     "selector-pseudo-element-no-unknown": true,
     "selector-type-no-unknown": true,
