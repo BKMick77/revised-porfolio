@@ -17,12 +17,14 @@
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
         rel="stylesheet">
 
-    <!-- <link rel="stylesheet" type="text/css" href="css/styles.css"> -->
-    <link rel="stylesheet" type="text/css" href="css/style.production.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/style.production.css"> -->
+
+    <script src="js/tota11y.min.js"> </script>
 
 </head>
 
-<script src="js/tota11y.min.js"> </script>
+
 
 <body>
 
@@ -186,32 +188,14 @@
     </section>
 
     <section id="contact" class="contact">
-        <h2>Let's Talk</h2>
+        <h2>Connect With Me</h2>
 
         <p>Ask me about my projects, tell me about yours. Let’s network. Let’s collaborate. Let’s get to know each
             other. </p>
-
-        <div class="form">
-
-            <form action="" method="post" id="contact-form">
-                <label class="standard-label form_item" for="contact-email"> E-Mail </label>
-                <!--Added for attribute for accessibility-->
-                <input type="email" id="contact-email" required> <!--Added id attribute for accessibility-->
-
-                <label class="standard-label form_item" for="contact-tel">Telephone</label>
-                <!--Added for attribute for accessibility-->
-                <input type="tel" id="contact-tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
-                <!--Added id attribute for accessibility-->
-
-                <label class="standard-label form_item" for="message">Message</label>
-                <textarea id="message" maxlength="240" required></textarea>
-
-                <input class="submit" value="Send">
-            </form>
+            
+        <div>
+            <a href="mailto: mhyler@zoho.com" class="button">Let's Talk</a>
         </div>
-
-        <p class="psst">psst, if forms aren't your thing (it's okay nobody likes them) click <a class="e-mail"
-                href="mailto: mhyler@zoho.com">here</a> for an e-mail. </p>
     </section>
     
     <!-- Only for mobile devices under 768px -->
