@@ -212,7 +212,6 @@ ul {
     position: sticky;
     display: flex;
     width: 100%;
-    padding: 20px;
     border-bottom: 0.01px solid rgba(240, 248, 255, 0.3);
 }
 
