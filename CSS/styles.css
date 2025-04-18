@@ -373,6 +373,16 @@ ul {
     text-align: left;
 }
 
+@media all and (max-width: 500px) {
+    .skills {
+        margin-top: 0;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+}
+
 @supports (display: grid) {
     .skills__grid {
         display: grid;
