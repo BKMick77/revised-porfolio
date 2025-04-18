@@ -92,6 +92,17 @@ button:active {
     background-color: var(--secondary-color);
 }
 
+.button,
+.button:visited,
+.button:active,
+.button:hover,
+.button:focus {
+    color: var(--font-color);
+    text-decoration: none;
+}
+
+/* added to get Safari to display button text */
+
 .navigation-list__item--active {
     text-decoration: none;
 }
