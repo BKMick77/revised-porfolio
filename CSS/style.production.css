@@ -9,6 +9,16 @@ html {
     scroll-behavior: smooth;
 }
 
+html {
+    scroll-padding-top: 120px;
+}
+
+@media all and (max-width: 500px) {
+    html {
+        scroll-padding-top: 200px;
+    }
+}
+
 * {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
@@ -391,7 +401,6 @@ ul {
 }
 
 @media screen and (max-width: 700px) {
-
     .navigation-list__item,
     .project-a,
     .profile-a {
@@ -415,13 +424,7 @@ ul {
 }
 
 #about-me {
-    scroll-margin-top: 200px;
-}
-
-@media all and (max-width: 500px) {
-    #about-me {
-        scroll-margin-top: 465px;
-    }
+    scroll-margin-top: clamp(115px, 15vh, 250px);
 }
 
 .about-me {
@@ -434,7 +437,7 @@ ul {
 
 @media all and (max-width: 500px) {
     .about-me {
-        margin-top: 5%;
+        margin-top: 0;
         margin-left: 5%;
         margin-right: 5%;
         padding-bottom: 20px;
@@ -442,13 +445,17 @@ ul {
     }
 }
 
+/* #about-me {
+        scroll-margin-top: 115px; */
+/* Lock scroll margin for mobile */
+
 #skills {
-    scroll-margin-top: 120px;
+    scroll-margin-top: 100px;
 }
 
 @media all and (max-width: 500px) {
     #skills {
-        scroll-margin-top: 375px;
+        scroll-margin-top: 75px;
     }
 }
 
@@ -458,6 +465,16 @@ ul {
     margin-right: 30%;
     padding-bottom: 20px;
     text-align: left;
+}
+
+@media all and (max-width: 500px) {
+    .skills {
+        margin-top: 0;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-bottom: 20px;
+        text-align: center;
+    }
 }
 
 @supports (display: grid) {
@@ -531,7 +548,7 @@ ul {
 
 @media all and (max-width: 500px) {
     #contact {
-        scroll-margin-top: 465px;
+        scroll-margin-top: 100px;
     }
 }
 
@@ -545,10 +562,10 @@ ul {
 
 @media all and (max-width: 500px) {
     .contact {
-        margin-top: 5%;
+        margin-top: 0%;
         margin-left: 5%;
         margin-right: 5%;
-        padding-bottom: 40px;
+        padding-bottom: 20px;
         text-align: center;
     }
 }
@@ -569,19 +586,6 @@ ul {
             transform: scale(1.2);
 }
 
-.form_item {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    margin-left: 10px;
-    margin-top: 10px;
-    padding: 5px;
-}
-
 #work {
     scroll-margin-top: 120px;
 }
@@ -592,7 +596,7 @@ ul {
 
 @media all and (max-width: 500px) {
     #work {
-        scroll-margin-top: 295px;
+        scroll-margin-top: 95px;
     }
 }
 
@@ -601,6 +605,16 @@ ul {
     margin-right: 30%;
     padding-bottom: 20px;
     text-align: left;
+}
+
+@media all and (max-width: 500px) {
+    .work-h1 {
+        margin-top: 0%;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-bottom: 20px;
+        text-align: center;
+    }
 }
 
 .grid__item {
@@ -662,7 +676,6 @@ ul {
 }
 
 @media all and (max-width: 768px) {
-
     .social-media,
     .up-arrow-icon,
     .page_footer {
