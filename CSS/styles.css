@@ -341,6 +341,12 @@ ul {
     scroll-margin-top: 120px;
 }
 
+@media all and (max-width: 500px) {
+    #skills {
+        scroll-margin-top: 375px;
+    }
+}
+
 .skills {
     margin-top: 35%;
     margin-left: 12%;
