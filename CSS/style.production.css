@@ -11,7 +11,7 @@ html {
 
 * {
     -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 body {
@@ -121,6 +121,33 @@ button:active {
 .button_secondary:active {
     background-color: #6e050c;
 }
+
+.button {
+    color: #f0f8ff;
+    text-decoration: none;
+}
+
+.button:visited {
+    color: #f0f8ff;
+    text-decoration: none;
+}
+
+.button:active {
+    color: #f0f8ff;
+    text-decoration: none;
+}
+
+.button:hover {
+    color: #f0f8ff;
+    text-decoration: none;
+}
+
+.button:focus {
+    color: #f0f8ff;
+    text-decoration: none;
+}
+
+/* added to get Safari to display button text */
 
 .navigation-list__item--active {
     text-decoration: none;
@@ -252,7 +279,7 @@ ul {
 .page-header {
     position: sticky;
     top: 0;
-    z-index: 1000;
+    z-index: 9999;
     background-color: #020323;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -364,6 +391,7 @@ ul {
 }
 
 @media screen and (max-width: 700px) {
+
     .navigation-list__item,
     .project-a,
     .profile-a {
@@ -390,6 +418,12 @@ ul {
     scroll-margin-top: 200px;
 }
 
+@media all and (max-width: 500px) {
+    #about-me {
+        scroll-margin-top: 465px;
+    }
+}
+
 .about-me {
     margin-top: 35%;
     margin-left: 12%;
@@ -398,8 +432,24 @@ ul {
     text-align: left;
 }
 
+@media all and (max-width: 500px) {
+    .about-me {
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+}
+
 #skills {
     scroll-margin-top: 120px;
+}
+
+@media all and (max-width: 500px) {
+    #skills {
+        scroll-margin-top: 375px;
+    }
 }
 
 .skills {
@@ -479,12 +529,28 @@ ul {
     scroll-margin-top: 200px;
 }
 
+@media all and (max-width: 500px) {
+    #contact {
+        scroll-margin-top: 465px;
+    }
+}
+
 .contact {
     margin-top: 35%;
     margin-left: 12%;
     margin-right: 35%;
     padding-bottom: 40px;
     text-align: left;
+}
+
+@media all and (max-width: 500px) {
+    .contact {
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-bottom: 40px;
+        text-align: center;
+    }
 }
 
 .e-mail {
@@ -503,97 +569,6 @@ ul {
             transform: scale(1.2);
 }
 
-@-webkit-keyframes color-change {
-    0% {
-        fill: #edc655;
-    }
-
-    50% {
-        fill: #f76414;
-    }
-
-    100% {
-        fill: #f76414;
-    }
-}
-
-@keyframes color-change {
-    0% {
-        fill: #edc655;
-    }
-
-    50% {
-        fill: #f76414;
-    }
-
-    100% {
-        fill: #f76414;
-    }
-}
-
-.sun {
-    -webkit-animation: color-change 4s linear infinite alternate;
-            animation: color-change 4s linear infinite alternate;
-}
-
-@-webkit-keyframes cloud-move {
-    from {
-        -webkit-transform: translate(0, 50px);
-                transform: translate(0, 50px);
-    }
-
-    to {
-        -webkit-transform: translate(200px, 50px);
-                transform: translate(200px, 50px);
-    }
-}
-
-@keyframes cloud-move {
-    from {
-        -webkit-transform: translate(0, 50px);
-                transform: translate(0, 50px);
-    }
-
-    to {
-        -webkit-transform: translate(200px, 50px);
-                transform: translate(200px, 50px);
-    }
-}
-
-.cloud-front {
-    -webkit-animation: cloud-move 30s linear infinite alternate;
-            animation: cloud-move 30s linear infinite alternate;
-}
-
-@-webkit-keyframes cloud-move-reverse {
-    from {
-        -webkit-transform: translate(466px, 48px);
-                transform: translate(466px, 48px);
-    }
-
-    to {
-        -webkit-transform: translate(100px, 48px);
-                transform: translate(100px, 48px);
-    }
-}
-
-@keyframes cloud-move-reverse {
-    from {
-        -webkit-transform: translate(466px, 48px);
-                transform: translate(466px, 48px);
-    }
-
-    to {
-        -webkit-transform: translate(100px, 48px);
-                transform: translate(100px, 48px);
-    }
-}
-
-.cloud-back {
-    -webkit-animation: cloud-move-reverse 34s linear infinite alternate;
-            animation: cloud-move-reverse 34s linear infinite alternate;
-}
-
 .form_item {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -607,20 +582,18 @@ ul {
     padding: 5px;
 }
 
-.psst {
-    font-size: 20px;
-}
-
-.psst a {
-    text-decoration: none;
-}
-
 #work {
     scroll-margin-top: 120px;
 }
 
 .work {
     margin-top: 40%;
+}
+
+@media all and (max-width: 500px) {
+    #work {
+        scroll-margin-top: 295px;
+    }
 }
 
 .work-h1 {
@@ -689,6 +662,7 @@ ul {
 }
 
 @media all and (max-width: 768px) {
+
     .social-media,
     .up-arrow-icon,
     .page_footer {
