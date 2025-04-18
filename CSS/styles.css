@@ -351,6 +351,10 @@ ul {
     }
 }
 
+/* #about-me {
+        scroll-margin-top: 115px; */
+/* Lock scroll margin for mobile */
+
 #skills {
     scroll-margin-top: 120px;
 }
