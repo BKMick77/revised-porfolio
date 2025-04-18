@@ -66,7 +66,7 @@ button,
     display: inline-block;
     font-family: inherit;
     background-color: var(--primary-darker);
-    color: var(--font-color);
+    color: #f0f8ff;
     text-decoration: none;
     padding: 10px;
     border-radius: 9999px;
