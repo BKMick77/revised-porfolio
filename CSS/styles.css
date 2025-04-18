@@ -414,6 +414,12 @@ ul {
     scroll-margin-top: 200px;
 }
 
+@media all and (max-width: 500px) {
+    #contact {
+        scroll-margin-top: 465px;
+    }
+}
+
 .contact {
     margin-top: 35%;
     margin-left: 12%;
