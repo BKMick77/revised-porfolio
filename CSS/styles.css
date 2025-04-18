@@ -323,6 +323,12 @@ ul {
     scroll-margin-top: 200px;
 }
 
+@media all and (max-width: 500px) {
+    #about-me {
+        scroll-margin-top: 465px;
+    }
+}
+
 .about-me {
     margin-top: 35%;
     margin-left: 12%;
