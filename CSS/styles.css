@@ -456,6 +456,12 @@ ul {
     margin-top: 40%;
 }
 
+@media all and (max-width: 500px) {
+    #work {
+        scroll-margin-top: 295px;
+    }
+}
+
 .work-h1 {
     margin-left: 12%;
     margin-right: 30%;
