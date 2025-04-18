@@ -440,52 +440,6 @@ ul {
     transform: scale(1.2);
 }
 
-@keyframes color-change {
-    0% {
-        fill: #edc655;
-    }
-
-    50% {
-        fill: #f76414;
-    }
-
-    100% {
-        fill: #f76414;
-    }
-}
-
-.sun {
-    animation: color-change 4s linear infinite alternate;
-}
-
-@keyframes cloud-move {
-    from {
-        transform: translate(0, 50px);
-    }
-
-    to {
-        transform: translate(200px, 50px);
-    }
-}
-
-.cloud-front {
-    animation: cloud-move 30s linear infinite alternate;
-}
-
-@keyframes cloud-move-reverse {
-    from {
-        transform: translate(466px, 48px);
-    }
-
-    to {
-        transform: translate(100px, 48px);
-    }
-}
-
-.cloud-back {
-    animation: cloud-move-reverse 34s linear infinite alternate;
-}
-
 .form_item {
     display: flex;
     flex-direction: column;
