@@ -330,13 +330,7 @@ ul {
 }
 
 #about-me {
-    scroll-margin-top: 200px;
-}
-
-@media all and (max-width: 500px) {
-    #about-me {
-        scroll-margin-top: 465px;
-    }
+    scroll-margin-top: clamp(115px, 15vh, 250px);
 }
 
 .about-me {
