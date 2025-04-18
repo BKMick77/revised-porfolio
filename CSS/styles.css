@@ -458,7 +458,7 @@ ul {
 
 @media all and (max-width: 500px) {
     .contact {
-        margin-top: 5%;
+        margin-top: 0%;
         margin-left: 5%;
         margin-right: 5%;
         padding-bottom: 40px;
