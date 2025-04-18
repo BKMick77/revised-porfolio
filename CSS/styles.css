@@ -438,6 +438,16 @@ ul {
     text-align: left;
 }
 
+@media all and (max-width: 500px) {
+    .contact {
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+}
+
 .e-mail {
     display: inline-block;
 }
