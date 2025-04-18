@@ -12,6 +12,16 @@ html {
     scroll-behavior: smooth;
 }
 
+html {
+    scroll-padding-top: 120px;
+}
+
+@media all and (max-width: 500px) {
+    html {
+        scroll-padding-top: 200px;
+    }
+}
+
 * {
     box-sizing: border-box;
 }
