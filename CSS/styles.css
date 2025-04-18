@@ -361,7 +361,7 @@ ul {
 
 @media all and (max-width: 500px) {
     #skills {
-        scroll-margin-top: 375px;
+        scroll-margin-top: 75px;
     }
 }
 
