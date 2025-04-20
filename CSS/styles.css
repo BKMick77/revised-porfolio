@@ -548,6 +548,15 @@ ul {
     @media all and (max-width: 500px) {
         .project-list {
             grid-template-columns: 1fr;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .work * {
+            margin: 0;
+            padding: 0;
+            padding-top: 5px;
         }
     }
 
