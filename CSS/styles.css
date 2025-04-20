@@ -560,7 +560,7 @@ ul {
         }
     }
 
-    @media all and (min-width: 500px) and (max-width: 768px) {
+    @media all and (min-width: 501px) and (max-width: 768px) {
         .project-list {
             grid-template-columns: 1fr 1fr;
         }
