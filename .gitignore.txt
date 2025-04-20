@@ -1,0 +1,5 @@
+# macOS folder metadata
+.DS_Store
+
+# third‑party minified accessibility script
+tota11y.min.js
