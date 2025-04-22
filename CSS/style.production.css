@@ -445,6 +445,7 @@ ul {
         margin-top: 0;
         margin-left: 5%;
         margin-right: 5%;
+        padding-top: 40px;
         padding-bottom: 20px;
         text-align: center;
     }
@@ -465,7 +466,7 @@ ul {
 }
 
 .skills {
-    margin-top: 25%;
+    margin-top: 35%;
     margin-left: 12%;
     margin-right: 30%;
     padding-bottom: 20px;
@@ -477,6 +478,7 @@ ul {
         margin-top: 0;
         margin-left: 5%;
         margin-right: 5%;
+        padding-top: 40px;
         padding-bottom: 20px;
         text-align: center;
     }
@@ -570,6 +572,7 @@ ul {
         margin-top: 0%;
         margin-left: 5%;
         margin-right: 5%;
+        padding-top: 40px;
         padding-bottom: 20px;
         text-align: center;
     }
@@ -617,6 +620,7 @@ ul {
         margin-top: 0%;
         margin-left: 5%;
         margin-right: 5%;
+        padding-top: 40px;
         padding-bottom: 20px;
         text-align: center;
     }
