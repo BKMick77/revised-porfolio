@@ -484,7 +484,7 @@ ul {
 }
 
 #work {
-    scroll-margin-top: 60px;
+    scroll-margin-top: clamp(120px, 18dvh, 295px);
 }
 
 .work {
