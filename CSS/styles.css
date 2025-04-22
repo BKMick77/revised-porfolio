@@ -335,7 +335,7 @@ ul {
 }
 
 #about-me {
-    scroll-margin-top: clamp(115px, 15vh, 250px);
+    scroll-margin-top: clamp(115px, 15dvh, 250px);
 }
 
 .about-me {
