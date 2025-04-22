@@ -455,7 +455,7 @@ ul {
 /* Lock scroll margin for mobile */
 
 #skills {
-    scroll-margin-top: clamp(120px, 20dvh, 375px);
+    scroll-margin-top: clamp(60px, 8dvh, 250px);
 }
 
 @media all and (max-width: 500px) {
@@ -465,7 +465,7 @@ ul {
 }
 
 .skills {
-    margin-top: 35%;
+    margin-top: 25%;
     margin-left: 12%;
     margin-right: 30%;
     padding-bottom: 20px;
@@ -592,7 +592,7 @@ ul {
 }
 
 #work {
-    scroll-margin-top: clamp(120px, 18dvh, 295px);
+    scroll-margin-top: clamp(60px, 8dvh, 250px);
 }
 
 .work {
