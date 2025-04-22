@@ -10,9 +10,6 @@
 
 html {
     scroll-behavior: smooth;
-}
-
-html {
     scroll-padding-top: 120px;
 }
 
