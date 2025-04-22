@@ -7,9 +7,6 @@
 
 html {
     scroll-behavior: smooth;
-}
-
-html {
     scroll-padding-top: 120px;
 }
 
@@ -432,7 +429,7 @@ ul {
 }
 
 #about-me {
-    scroll-margin-top: clamp(115px, 15vh, 250px);
+    scroll-margin-top: clamp(115px, 15dvh, 250px);
 }
 
 .about-me {
@@ -458,7 +455,7 @@ ul {
 /* Lock scroll margin for mobile */
 
 #skills {
-    scroll-margin-top: 60px;
+    scroll-margin-top: clamp(120px, 20dvh, 375px);
 }
 
 @media all and (max-width: 500px) {
@@ -551,7 +548,7 @@ ul {
 }
 
 #contact {
-    scroll-margin-top: 200px;
+    scroll-margin-top: clamp(200px, 25dvh, 465px);
 }
 
 @media all and (max-width: 500px) {
@@ -595,7 +592,7 @@ ul {
 }
 
 #work {
-    scroll-margin-top: 60px;
+    scroll-margin-top: clamp(120px, 18dvh, 295px);
 }
 
 .work {
