@@ -361,7 +361,7 @@ ul {
 /* Lock scroll margin for mobile */
 
 #skills {
-    scroll-margin-top: 60px;
+    scroll-margin-top: clamp(120px, 20dvh, 375px);
 }
 
 @media all and (max-width: 500px) {
